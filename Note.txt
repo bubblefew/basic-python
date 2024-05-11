@@ -2,6 +2,12 @@ set env
     python -m venv env
     env\Scripts\activate
 
+save packages
+    pip freeze > requirements.txt
+
+install packages
+    pip install -r requirements.txt
+
 
 Libary
  - Numpy 
