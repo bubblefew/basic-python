@@ -8,7 +8,14 @@ save packages
 install packages
     pip install -r requirements.txt
 
+run StreamlitLab
+    streamlit run StreamlitLab.py
 
 Libary
  - Numpy 
  - Pandas
+ - Streamlit
+ - Matplotlib
+ - Scikit-learn
+    - Linear Regression ## หาความสัมพันธ์ของข้อมูล
+    - Logistic Regression  ## หาความน่าจะเป็น
